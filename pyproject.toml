@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "aidian0820-resched_jd178"
+name = "aidian0820-synthetic_data_quality_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告训练资源调度工程师·合成数据的质量分水岭相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://aidian0820.github.io"
-Repository = "https://github.com/aidian0820/resched_jd178"
-Issues = "https://github.com/aidian0820/resched_jd178/issues"
+Repository = "https://github.com/aidian0820/synthetic_data_quality_pattern_locate"
+Issues = "https://github.com/aidian0820/synthetic_data_quality_pattern_locate/issues"
 
 [project.scripts]
-resched_jd178 = "resched_jd178:main"
+synthetic_data_quality_pattern_locate = "synthetic_data_quality_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["resched_jd178"]
+py-modules = ["synthetic_data_quality_pattern_locate"]
